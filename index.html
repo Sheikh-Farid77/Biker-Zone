@@ -16,13 +16,13 @@
 </head>
 
 <body class="font-poppins">
-  <header class="md:container mx-auto">
+  <header class="md:container mx-auto bg-[#264653] lg:bg-transparent">
     <!-- nav bar -->
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-[#264653] lg:bg-base-100">
       <div class="flex-1">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-white w-5" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
@@ -34,7 +34,7 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <a class="font-extrabold text-xl md:text-4xl">Bike Dekho</a>
+        <a class="font-extrabold text-white lg:text-[#000] text-xl md:text-4xl">Bike Dekho</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
@@ -48,6 +48,21 @@
         <a class="btn bg-button text-white hover:text-[#000]">Login</a>
       </div>
     </div>
+    <!-- small device hero section -->
+    <section class="mt-5  px-3 grid gap-12 md:grid-cols-2 pb-5 md:pb-10 md:pt-10 lg:hidden">
+      <div class="space-y-4 mx-auto">
+        <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+        <h2 class="text-4xl font-semibold text-white">Honda CBR 300R</h2>
+        <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <div>
+          <a class="btn bg-button text-white hover:text-[#000]">Purchase</a>
+        </div>
+      </div>
+      <div>
+        <img class="mx-auto" src="images/others/honda-cbr-300r-2-removebg-preview 1.png" alt="">
+      </div>
+    </section>
     <!-- hero section -->
     <div class="carousel w-full mt-8 hidden lg:flex">
       <!-- slide 1 -->
