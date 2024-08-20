@@ -136,10 +136,10 @@
     <!-- latest news section -->
     <section class="mb-24">
       <h1 class="text-5xl text-center font-semibold mb-20">latest News</h1>
-      <div class="grid gap-8 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
         <!-- first card -->
         <div class="mx-auto">
-          <div class="card bg-base-100 w-96 shadow-xl">
+          <div class="card bg-base-100 shadow-xl">
             <figure>
               <img src="images/others/latest1.png" alt="Shoes" />
             </figure>
@@ -155,7 +155,7 @@
         </div>
         <!-- second card -->
         <div class="mx-auto">
-          <div class="card bg-base-100 w-96 shadow-xl">
+          <div class="card bg-base-100 shadow-xl">
             <figure>
               <img src="images/others/latest2.png" alt="Shoes" />
             </figure>
@@ -171,7 +171,7 @@
         </div>
         <!-- third card -->
         <div class="mx-auto">
-          <div class="card bg-base-100 w-96 shadow-xl">
+          <div class="card bg-base-100 shadow-xl">
             <figure>
               <img src="images/others/latest3.png" alt="Shoes" />
             </figure>
@@ -189,9 +189,9 @@
     </section>
     <h1 class="text-5xl text-center font-semibold mb-20">Happy <span class="text-button">Clients says</span></h1>
     <!-- client section -->
-    <section class="grid gap-20 mb-24 lg:grid-cols-3">
+    <section class="grid grid-cols-1 gap-20 mb-24 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
       <!-- first card -->
-      <div class="card bg-base-100 w-96 mx-auto shadow-xl">
+      <div class="card bg-base-100 mx-auto shadow-xl">
         <div class="avatar mx-auto">
           <div class="w-24 rounded-full">
             <img src="images/others/user-1.png" />
@@ -237,7 +237,7 @@
         </div>
       </div>
       <!-- second card -->
-      <div class="card bg-base-100 w-96 mx-auto shadow-xl">
+      <div class="card bg-base-100 mx-auto shadow-xl">
         <div class="avatar mx-auto">
           <div class="w-24 rounded-full">
             <img src="images/others/user-2.png" />
@@ -283,7 +283,7 @@
         </div>
       </div>
       <!-- third card -->
-      <div class="card bg-base-100 w-96 mx-auto shadow-xl">
+      <div class="card bg-base-100 mx-auto shadow-xl">
         <div class="avatar mx-auto">
           <div class="w-24 rounded-full">
             <img src="images/others/user-3.png" />
@@ -338,7 +338,7 @@
           <img class="mx-auto" src="images/others/faq.png" alt="">
         </div>
         <div class="mx-auto flex-1">
-          <div class="join join-vertical w-full">
+          <div class="join join-vertical space-y-3 w-full">
             <div class="collapse collapse-arrow join-item border-base-300 border">
               <input type="radio" name="my-accordion-4" checked="checked" />
               <div class="collapse-title text-xl font-medium">What are the most important things I should
@@ -365,13 +365,13 @@
                 <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
                   the mindset of “driving” your bike—not just “riding” your</p>
               </div>
-              <div class="collapse collapse-arrow join-item border-base-300 border">
-                <input type="radio" name="my-accordion-4" />
-                <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
-                <div class="collapse-content">
-                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
-                    the mindset of “driving” your bike—not just “riding” your</p>
-                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+              <div class="collapse-content">
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
+                  the mindset of “driving” your bike—not just “riding” your</p>
               </div>
             </div>
           </div>
@@ -379,7 +379,22 @@
     </section>
 
   </main>
-  <footer>
+  <footer class="bg-[#0B0D17]">
+    <footer class="footer md:container mx-auto bg-none text-neutral-content items-center py-20">
+      <aside class="grid-flow-col mx-auto md:mx-0 items-center">
+        <p>© 2020 bike. All rights reserved</p>
+      </aside>
+      <nav class="gap-4 mx-auto md:mx-0 md:place-self-center md:justify-self-end">
+        <h3 class="text-3xl mb-6 lg:mb-10">Get App</h3>
+        <div>
+          <img src="images/others/android.png" alt="">
+        </div>
+        <div>
+          <img src="images/others/ios.png" alt="">
+        </div>
+
+      </nav>
+    </footer>
 
   </footer>
 </body>
